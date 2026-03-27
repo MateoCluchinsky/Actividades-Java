@@ -1,4 +1,4 @@
-package Actividad_2.src;
+package Actividad_2_Ejercicio_01.src;
 
 import java.util.ArrayList;
 import java.util.List;

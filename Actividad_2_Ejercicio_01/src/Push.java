@@ -1,9 +1,9 @@
-package Actividad_2.src;
+package Actividad_2_Ejercicio_01.src;
 
-public class Email implements CanalNotificacion {
+public class Push implements CanalNotificacion {
     @Override
     public void enviar(String mensaje, Severidad severidad) {
-        System.out.println("[EMAIL] Enviando correo electrónico...");
+        System.out.println("[PUSH] Notificación a la App Móvil...");
         System.out.println("   Severidad: " + severidad + " | Mensaje: " + mensaje);
     }
 }
